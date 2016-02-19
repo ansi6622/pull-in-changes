@@ -12,8 +12,7 @@
           $('.slider').fadeOut(500,function(){slideshowFadeIn();$(this).remove()});
       }
       else
-      {
-          slideshowFadeIn();
+  ();
       }
   }
   function slideshowFadeIn()
